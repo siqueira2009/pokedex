@@ -16,9 +16,32 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+   main {
+        width: 90%;
+    }
+    
+    main #logoPokemon {
+        min-width: 200px !important;
+    }
+    
+    .pokemonBox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pokemonBox img {
+        max-width: 300px;
+    } 
+}
+
 @media screen and (max-width: 770px) {
     main {
         width: 90%;
+    }
+    
+    main #logoPokemon {
+        min-width: 300px;
     }
     
     .pokemonBox {

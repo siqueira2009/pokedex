@@ -28,6 +28,14 @@ main h2 {
     font-size: 50px;
 }
 
+main #logoPokemon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 40%;
+    min-width: 420px;
+}
+
 #pokemonDiv {
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +87,7 @@ main h2 {
 #quantidadePokemons {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     outline: none;
     padding: 10px;
     border: #3466AF 2px solid;
