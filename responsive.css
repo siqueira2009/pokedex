@@ -1,0 +1,38 @@
+@media screen and (max-width: 300px) {
+    main {
+        display: none;
+    }
+
+    body::before {
+        width: 100dvw;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        content: "Tela muito pequena!";
+    }
+}
+
+@media screen and (max-width: 770px) {
+    main {
+        width: 90%;
+    }
+    
+    .pokemonBox {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pokemonBox img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 80%;
+    }
+}
